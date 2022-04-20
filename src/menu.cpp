@@ -9,6 +9,7 @@ Menu::Menu(std::shared_ptr<Viewer> v)
 
     setCallBacks();
 
+
     v->render(sw.getObject());
     v->addMenu(menu);
     v->launch();
